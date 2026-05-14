@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drew Kirby</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Under Construction
+    <header>
+        <a href="https://www.linkedin.com/in/drew-kirby" target="_blank">
+            <img id="profile-pic" src="https://avatars.githubusercontent.com/u/159677238?v=4" alt="Drew Kirby">
+        </a>
+        <h1>Drew Kirby</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <div class="sidebar-footer-text">Made by Drew Kirby</div>
+            <div class="sidebar-footer-links">
+                <a href="http://github.com/Drew-Kirby" target="_blank">
+                    <img id="footerIMG" src="https://images.icon-icons.com/3685/PNG/512/github_logo_icon_229278.png" alt="GitHub: Drew Kirby">
+                </a>
+                <a href="https://www.linkedin.com/in/drew-kirby" target="_blank">
+                    <img id="footerIMG2" src="https://static.vecteezy.com/system/resources/thumbnails/018/930/585/small/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn: Drew Kirby">
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>Hello! 👋</h2>
+            <p>My name is Drew Kirby. I'm a fourth year Computer Information Systems student at Saginaw Valley State University. I'm passionate about learning more about technology and software development. I am still very early in my career journey and I am always looking for new opportunities to grow and learn.</p>
+            <p>Below are some projects that I've worked on. I plan to be adding more to this list as I complete more projects, but in the meantime, here are the one's that I have completed, or at least gotten a proof of concept created for</p>
+        </section>
+
+        <section class="project-grid">
+            <div class="project-item">
+                <h1 class="project-name">Project Generator</h1>
+                <a href="https://drew-kirby.github.io/ProjectGenerator/" target="_blank"><img src="assets/projectgenerator.png" class="project-image"></a>
+                <p class="project-description">Gives a project idea, description, and estimated time to complete that project.</p>
+                <p class="languages-used">Languages Used: HTML, CSS, JavaScript</p>
+            </div>
+            <div class="project-item">
+                <h1 class="project-name">Word Counter</h1>
+                <a href="https://drew-kirby.github.io/WordCounter/" target="_blank"><img src="assets/wordcounter.png" class="project-image"></a>
+                <p class="project-description">Counts the number of words in the textbox and updates in real-time.</p>
+                <p class="languages-used">Languages Used: HTML, CSS, JavaScript</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
