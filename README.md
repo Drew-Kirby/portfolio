@@ -20,8 +20,7 @@ It is hosted for free using **GitHub Pages** and linked to my custom domain.
 ## 📂 Project Files
 *   `index.html` - The main homepage of the site
 *   `/assets` - Images, icons, and styling files
-*   `.github/README.md` - You're reading this right now!
-*   `README.md` - My main GitHub account bio
+*   `README.md` - You're reading this right now!
 
 ---
 
